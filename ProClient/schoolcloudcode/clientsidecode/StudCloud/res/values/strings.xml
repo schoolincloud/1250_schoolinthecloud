@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">School on Cloud</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="macaddress">MAC Address</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_go">Go</string>
+    <string name="txtm">sauuuuUUUsvaagatma</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="txtNextM">puuZoooo</string>
+    <string name="title_activity_std">Standard</string>
+    <string name="title_activity_main_menu">Menu</string>
+    <string name="title_activity_bookslist">Books List</string>
+    <string name="title_activity_videolist">Videos List</string>
+    <string name="title_activity_imglist">Images List</string>
+    <string name="title_activity_notificationlist">Notification List</string>
+    <string name="txtMage">maagao</string>
+    <string name="title_activity_popuplist">Popuplist</string>
+    <string name="txtShow">Show</string>
+    <string name="title_activity_subject_list">Subject List</string>
+    <string name="title_activity_general_subject_list">Subject List</string>
+    <string name="title_activity_show_images">Image</string>
+    <string name="show">Show</string>
+    <string name="title_activity_media_player">Video Play</string>
+    <string name="back">Back</string>
+
+</resources>

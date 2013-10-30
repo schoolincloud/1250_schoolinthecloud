@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.studcloud"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.studcloud.MainPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.studcloud.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.studcloud.WelcomeActivity"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.studcloud.StdActivity"
+            android:label="@string/title_activity_std" >
+        </activity>
+        <activity
+            android:name="com.studcloud.MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name="com.studcloud.Bookslist"
+            android:label="@string/title_activity_bookslist" >
+        </activity>
+         <activity
+            android:name="com.studcloud.Notificationlist"
+            android:label="@string/title_activity_notificationlist" >
+        </activity>
+          <activity
+            android:name="com.studcloud.Imageslist"
+            android:label="@string/title_activity_imglist" >
+        </activity>
+        <activity
+            android:name="com.studcloud.Vidoelist"
+            android:label="@string/title_activity_videolist" >
+        </activity>
+        <activity
+            android:name="com.studcloud.Popuplist"
+            android:label="@string/title_activity_popuplist" >
+        </activity>
+        <activity
+            android:name="com.studcloud.SubjectList"
+            android:label="@string/title_activity_subject_list" >
+        </activity>
+        <activity
+            android:name="com.studcloud.GeneralSubjectList"
+            android:label="@string/title_activity_general_subject_list" >
+        </activity>
+        <activity
+            android:name="com.studcloud.ShowImages"
+            android:label="@string/title_activity_show_images" >
+        </activity>
+        <activity
+            android:name="com.studcloud.ShowEbooks"
+            android:label="@string/title_activity_show_images" >
+        </activity>
+        <activity
+            android:name="com.studcloud.MediaPlayerActivity"
+            android:label="@string/title_activity_media_player" >
+        </activity>
+    </application>
+
+</manifest>

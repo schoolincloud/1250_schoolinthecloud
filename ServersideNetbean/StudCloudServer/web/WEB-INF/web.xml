@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+   <servlet>
+		    <servlet-name>Login1</servlet-name>
+		    <servlet-class>com.studcloud.Login</servlet-class>
+   </servlet>
+  <servlet-mapping>
+		    <servlet-name>Login1</servlet-name>
+		    <url-pattern>/html/Login1</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+		    <servlet-name>SchoolReg</servlet-name>
+		    <servlet-class>com.studcloud.SchoolReg</servlet-class>
+   </servlet>
+  <servlet-mapping>
+		    <servlet-name>SchoolReg</servlet-name>
+		    <url-pattern>/html/SchoolReg</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+		    <servlet-name>TabReg</servlet-name>
+		    <servlet-class>com.studcloud.TabReg</servlet-class>
+   </servlet>
+  <servlet-mapping>
+		    <servlet-name>TabReg</servlet-name>
+		    <url-pattern>/html/TabReg</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+		    <servlet-name>SubjectAdd</servlet-name>
+		    <servlet-class>com.studcloud.SubjectAdd</servlet-class>
+   </servlet>
+  <servlet-mapping>
+		    <servlet-name>SubjectAdd</servlet-name>
+		    <url-pattern>/html/SubjectAdd</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	        <servlet-name>FileUploadHandler</servlet-name>
+        	<servlet-class>com.studcloud.FileUploadHandler</servlet-class>
+  </servlet>
+   <servlet-mapping>
+       		 <servlet-name>FileUploadHandler</servlet-name>
+	        <url-pattern>/html/FileUploadHandler</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+	        <servlet-name>NotificationUpload</servlet-name>
+        	<servlet-class>com.studcloud.NotificationUploadHandler</servlet-class>
+  </servlet>
+   <servlet-mapping>
+       		 <servlet-name>NotificationUpload</servlet-name>
+	        <url-pattern>/html/NotificationUpload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+	        <servlet-name>ScholarshipNoticeUpload</servlet-name>
+        	<servlet-class>com.studcloud.SchlExamNoticeUploadHandler</servlet-class>
+  </servlet>
+   <servlet-mapping>
+       		 <servlet-name>ScholarshipNoticeUpload</servlet-name>
+	        <url-pattern>/html/ScholarshipNoticeUpload</url-pattern>
+    </servlet-mapping>
+    <servlet>
+		    <servlet-name>Deleteupload</servlet-name>
+		    <servlet-class>com.studcloud.Deleteupload</servlet-class>
+   </servlet>
+  <servlet-mapping>
+		    <servlet-name>Deleteupload</servlet-name>
+		    <url-pattern>/html/Deleteupload</url-pattern>
+  </servlet-mapping>
+   <servlet>
+		    <servlet-name>DeleteNotification</servlet-name>
+		    <servlet-class>com.studcloud.DeleteNotification</servlet-class>
+   </servlet>
+  <servlet-mapping>
+		    <servlet-name>DeleteNotification</servlet-name>
+		    <url-pattern>/html/DeleteNotification</url-pattern>
+  </servlet-mapping>
+   <servlet>
+		    <servlet-name>DeleteSchlNotice</servlet-name>
+		    <servlet-class>com.studcloud.DeleteSchlNotice</servlet-class>
+   </servlet>
+  <servlet-mapping>
+		    <servlet-name>DeleteSchlNotice</servlet-name>
+		    <url-pattern>/html/DeleteSchlNotice</url-pattern>
+  </servlet-mapping>
+</web-app>
